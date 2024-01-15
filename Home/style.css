@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Poppins:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -21,12 +24,24 @@ body{
     border: 1px solid #D70F64;
     color: #D70F64;
     margin-right: 20px;
+    transition: transform 0.4;
+}
+#logIn:hover{
+    transform: scale(1.1);
+    background-color: #eee7eb;
 }
 .signUp{
     background-color: #D70F64;
     color: #fff;
     margin-right: 20px;
+    transition: transform 0.4;
 }
+.signUp:hover{
+    background-color: #D70F64 !important;
+    color: #fff !important;
+    transform: scale(1.1);
+}
+
 #inputAndDrop{
     display: flex;
     align-items: center;
@@ -120,12 +135,16 @@ body{
 #image1{
     width: 100%;
 }
+#citiesNameParent div{
+    cursor: pointer;
+}
 #placeImg-1{
     background-image: url('./Assets/placeImg/Islamabad.webp');
     background-size: cover;
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-2{
     background-image: url('./Assets/placeImg/Karachi.webp');
@@ -133,6 +152,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-3{
     background-image: url('./Assets/placeImg/Lahore.webp');
@@ -140,6 +160,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-4{
     background-image: url('./Assets/placeImg/Faisalabad.webp');
@@ -147,6 +168,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-5{
     background-image: url('./Assets/placeImg/Rawalpindi.webp');
@@ -154,6 +176,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-6{
     background-image: url('./Assets/placeImg/Abottabad.webp');
@@ -161,6 +184,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-7{
     background-image: url('./Assets/placeImg/Bahawalpur.webp');
@@ -168,6 +192,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-8{
     background-image: url('./Assets/placeImg/DeraGhaziKhan.webp');
@@ -175,6 +200,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-9{
     background-image: url('./Assets/placeImg/Gujranwala.webp');
@@ -182,6 +208,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-10{
     background-image: url('./Assets/placeImg/Gujrat.jpg');
@@ -189,6 +216,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-11{
     background-image: url('./Assets/placeImg/Hyderabad.webp');
@@ -196,6 +224,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-12{
     background-image: url('./Assets/placeImg/Jhelum.webp');
@@ -203,6 +232,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-13{
     background-image: url('./Assets/placeImg/Kamoke.webp');
@@ -210,6 +240,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-14{
     background-image: url('./Assets/placeImg/Larkana.webp');
@@ -217,6 +248,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-15{
     background-image: url('./Assets/placeImg/Mangla.webp');
@@ -224,6 +256,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-16{
     background-image: url('./Assets/placeImg/Mardan.webp');
@@ -231,6 +264,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-17{
     background-image: url('./Assets/placeImg/Multan.webp');
@@ -238,6 +272,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-18{
     background-image: url('./Assets/placeImg/Murree.webp');
@@ -245,6 +280,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-19{
     background-image: url('./Assets/placeImg/Okara.webp');
@@ -252,6 +288,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-20{
     background-image: url('./Assets/placeImg/PanoAqil.webp');
@@ -259,6 +296,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-21{
     background-image: url('./Assets/placeImg/Peshawar.webp');
@@ -266,6 +304,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-22{
     background-image: url('./Assets/placeImg/Quetta.webp');
@@ -273,6 +312,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-23{
     background-image: url('./Assets/placeImg/RahimYarKhan.webp');
@@ -280,6 +320,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-24{
     background-image: url('./Assets/placeImg/Sadiqabad.webp');
@@ -287,6 +328,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-25{
     background-image: url('./Assets/placeImg/Sahiwal.webp');
@@ -294,6 +336,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-26{
     background-image: url('./Assets/placeImg/Sargodha.webp');
@@ -301,6 +344,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-27{
     background-image: url('./Assets/placeImg/Sheikhupura.webp');
@@ -308,6 +352,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-28{
     background-image: url('./Assets/placeImg/Sialkot.webp');
@@ -315,6 +360,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-29{
     background-image: url('./Assets/placeImg/Sukkur.webp');
@@ -322,6 +368,7 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
 }
 #placeImg-30{
     background-image: url('./Assets/placeImg/WahhCannt.webp');
@@ -329,6 +376,97 @@ body{
     height: 240px;
     border-radius: 15px;
     width: 285px;
+    transition: transform 0.5s;
+}
+#placeImg-1:hover{
+    transform: scale(1.1);
+}
+#placeImg-2:hover{
+    transform: scale(1.1);
+}
+#placeImg-3:hover{
+    transform: scale(1.1);
+}
+#placeImg-4:hover{
+    transform: scale(1.1);
+}
+#placeImg-5:hover{
+    transform: scale(1.1);
+}
+#placeImg-6:hover{
+    transform: scale(1.1);
+}
+#placeImg-7:hover{
+    transform: scale(1.1);
+}
+#placeImg-8:hover{
+    transform: scale(1.1);
+}
+#placeImg-9:hover{
+    transform: scale(1.1);
+}
+#placeImg-10:hover{
+    transform: scale(1.1);
+}
+#placeImg-11:hover{
+    transform: scale(1.1);
+}
+#placeImg-12:hover{
+    transform: scale(1.1);
+}
+#placeImg-13:hover{
+    transform: scale(1.1);
+}
+#placeImg-14:hover{
+    transform: scale(1.1);
+}
+#placeImg-15:hover{
+    transform: scale(1.1);
+}
+#placeImg-16:hover{
+    transform: scale(1.1);
+}
+#placeImg-17:hover{
+    transform: scale(1.1);
+}
+#placeImg-18:hover{
+    transform: scale(1.1);
+}
+#placeImg-19:hover{
+    transform: scale(1.1);
+}
+#placeImg-20:hover{
+    transform: scale(1.1);
+}
+#placeImg-21:hover{
+    transform: scale(1.1);
+}
+#placeImg-22:hover{
+    transform: scale(1.1);
+}
+#placeImg-23:hover{
+    transform: scale(1.1);
+}
+#placeImg-24:hover{
+    transform: scale(1.1);
+}
+#placeImg-25:hover{
+    transform: scale(1.1);
+}
+#placeImg-26:hover{
+    transform: scale(1.1);
+}
+#placeImg-27:hover{
+    transform: scale(1.1);
+}
+#placeImg-28:hover{
+    transform: scale(1.1);
+}
+#placeImg-29:hover{
+    transform: scale(1.1);
+}
+#placeImg-30:hover{
+    transform: scale(1.1);
 }
 #btn{
     margin-top: 180px;
@@ -405,7 +543,157 @@ body{
 #userBar{
     display: flex;
 }
-    
+.btn-danger{
+    background-color: #D70F64;
+}
+.btn-danger:hover{
+    padding: 10px 15px;
+    /* width: 110px;
+    height: 40px; */
+}
+.card{
+    width: 32rem;
+    margin-top: 340px;
+    margin-left: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ /* family picture css star from here */
+ #officePic{
+    border: 1px solid black;
+ }
+ /* last paragraphs of website */
+ .paragraphContainer{
+    margin-top: 180px;
+   
+ }
+ .paragraphContainer h1{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 35px;
+ }
+ .paragraph1 p {
+    font-family: 'Open sans';
+ }
+ .paragraph2 p{
+    line-height: 10px;
+    font-family: 'Open sans';
+ }
+ .paragraph3{
+    font-family: 'Open sans';
+ }
+ .paragraph2 p span{
+    color: #D70F64;
+ }
+ #questionPara{
+    border-bottom: 1px solid rgb(211, 206, 206);
+    padding-bottom: 20px;
+ }
+ #paraAboutPandaRow h1{
+    margin-bottom: 23px;
+ }
+ #paraAboutPandaRow2 h3{
+    font-family: 'Open sans';
+    font-weight: 550;
+ }
+ #paraAboutPandaRow2 h5{
+    opacity: 0.8;
+    font-family: 'Open sans';
+    font-weight: 550;
+    margin-bottom: 15px;
+ }
+ #paraAboutPandaRow3 h6{
+    margin-top: 17px;
+    font-family: 'Open sans';
+    font-weight: 600;
+    opacity: 0.9;
+ }
+ .paragraph3 p{
+    letter-spacing: 0.2px;
+ }
+ .paragraph3 p span{
+    color: #D70F64;
+ }
+ #faceAndInsta{
+    display: flex;
+    justify-content: flex-end;
+ }
+ #logoFaceAndInsta{
+    border-top: 1px solid rgb(234, 231, 231);
+    border-bottom: 1px solid rgb(223, 217, 217);
+    padding: 40px 0;
+    margin-top: 100px;
+ }
+ .fa-facebook{
+    font-size: 30px;
+    margin-right: 15px;
+    opacity: 0.7;
+ }
+ .fa-facebook:hover{
+    color: #D70F64;
+ }
+ .fa-instagram{
+    font-size: 30px;
+    opacity: 0.7;
+ }
+ .fa-instagram:hover{
+    color: #D70F64;
+ }
+ #faceAndInsta i:hover{
+    cursor: pointer;
+ }
+ /* panda logo, facebook and instagram */
+ #logoFaceAndInsta{
+    display: flex;
+    justify-content: space-between;
+ }
+ /* panda Information css */
+ #pandaInformation{
+    font-family: 'Open sans';
+    border-bottom: 1px solid rgb(217, 212, 212);
+    margin-top: 20px;
+    padding-bottom: 10px;
+ }
+ #pandaLinkWeb span:hover{
+    color: #D70F64;
+    cursor: pointer;
+ }
+ /* Modal */
+ .logInBtn{
+    background-color: #D70F64;
+    color: #fff;
+    transition: transform 0.3s;
+ }
+ .logInBtn:hover{
+    background-color: #D70F64;
+    color: #fff;
+    transform: scaleY(1.1);
+ }
+ .signUpBTn{
+    border: 1px solid #D70F64;
+    color: #D70F64 !important;
+ }
+ .signUpModal{
+    margin-left: 500px;
+ }
+ .modal-body input{
+    outline: none !important;
+ }
+ /* when click on sign Up */
+#dropDownSignUp, #signUpDropdownBtn{
+    background-color: #D70F64 !important;
+    color: #fff !important;
+}
+#dropdownlist li{
+    padding: 2px 5px;
+    cursor: pointer;
+}
+ #dropdownlist li:hover{
+   background-color: #e48db2 !important;
+   color: #fff;
+}
+#email,#password,#email2,#password2{
+    box-shadow: none !important;
+}
 @media (max-width: 964px) {
     #popUp{
         height: 430px;
@@ -508,6 +796,17 @@ body{
     }
 }
 @media (max-width: 750px){
+    #pandaInformation{
+        text-align: center;
+        font-size: 22px;
+    }
+    .paragraph2 p{
+        line-height: 16px;
+    }
+    .card{
+        margin-left: 15px;
+        width: 43rem;
+    }
     .fa-user{
         margin-right: 150px;
     }
@@ -539,8 +838,41 @@ body{
         left: 120px;
     }
 }
-
+@media (max-width: 735px){
+    .card{
+        margin-left: 15px;
+        width: 40rem;
+    }
+}
+@media (max-width: 685px){
+    .card{
+        margin-left: 15px;
+        width: 39rem;
+    }
+}
+@media (max-width: 660px){
+    .card{
+        margin-left: 15px;
+        width: 37rem;
+    }
+}
+@media (max-width: 630px){
+    .card{
+        margin-left: 15px;
+        width: 35rem;
+    }
+}
+@media (max-width: 600px){
+    .card{
+        margin-left: 15px;
+        width: 33rem;
+    }
+}
 @media (max-width: 580px){
+    .card{
+        margin-left: 15px;
+        width: 31rem;
+    }
     .fa-user{
         margin-right: 100px;
     }
@@ -558,6 +890,10 @@ body{
     }
 }
 @media (max-width: 550px){
+    .card{
+        margin-left: 15px;
+        width: 30rem;
+    }
     #para1 h1{
         font-size: 18px;
     }
@@ -588,13 +924,51 @@ body{
         left: 0;
     }
 }
+@media (max-width: 525px){
+    .card{
+        margin-left: 15px;
+        width: 28rem;
+    }
+}
+@media (max-width: 490px){
+    .card{
+        margin-left: 15px;
+        width: 26rem;
+    }
+}
 @media (max-width: 460px){
+    .card{
+        margin-left: 15px;
+        width: 24rem;
+    }
     #mobilePhone{
         top: 300px;
         left: 60px;
     }
 }
+@media (max-width: 440px){
+    #logoPandahey{
+        margin-left: -20px;
+    }
+    .card{
+        margin-left: 15px;
+        width: 22rem;
+    }
+}
+@media (max-width: 400px){
+    .card{
+        margin-left: 15px;
+        width: 21rem;
+    }
+    #logoPandahey{
+        margin-left: -45px;
+    }
+}
 @media (max-width: 380px){
+    .card{
+        margin-left: 15px;
+        width: 19rem;
+    }
     .fa-user{
         display: flex;
         margin-right: 100px;
@@ -629,5 +1003,29 @@ body{
     }
     #manImg{
         height: 600px;
+    }
+}
+@media (max-width: 350px){
+    .card{
+        margin-left: 15px;
+        width: 18rem;
+    }
+}
+@media (max-width: 330px){
+    .card{
+        margin-left: 15px;
+        width: 16rem;
+    }
+}
+@media (max-width: 300px){
+    .card{
+        margin-left: 15px;
+        width: 15rem;
+    }
+}
+@media (max-width: 280px){
+    .card{
+        margin-left: 15px;
+        width: 13rem;
     }
 }
